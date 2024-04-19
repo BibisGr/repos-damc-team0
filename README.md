@@ -1,4 +1,8 @@
 # MiApp
+hola
+que tal 
+me llamo Maria
+es la primera que utilizo Visual
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
 
