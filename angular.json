@@ -24,10 +24,18 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": [],
+          ],
+          "styles": [
+            "src/styles.css",
+            "./node_modules/bootstrap/dist/css/bootstrap.css",
+            "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+          ],
+          "scripts": [
+            "./node_modules/bootstrap/dist/js/bootstrap.js",
+            "./node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+            "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+          ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -88,13 +96,24 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+          ],
+          "styles": [
+            "src/styles.css",
+            "./node_modules/bootstrap/dist/css/bootstrap.css",
+            "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+          ],
+          "scripts": [
+            "./node_modules/bootstrap/dist/js/bootstrap.js",
+            "./node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+            "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+          ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "df3a3d11-d217-4c5c-85f3-cea273a79e1d"
   }
 }
